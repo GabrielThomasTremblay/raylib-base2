@@ -3,7 +3,21 @@
 
 void raylib_start(void){
     
-    InitWindow(1280, 800, "Now with more bugs!");
+    InitWindow(256, 256, "That one indie game");
+    SetTargetFPS(30);
 
-    //keep for the end ;p
+    
+    while(!WindowShouldClose()){
+
+        BeginDrawing();
+        ClearBackground(BLUE);
+
+        DrawRectangle(64,64,64,200,(Color){77, 52, 40,255});
+
+
+    }
+    CloseWindow;
+    
+
+    
 }
